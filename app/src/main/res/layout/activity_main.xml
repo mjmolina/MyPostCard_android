@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/florist"
+    android:orientation="vertical"
+    tools:context="com.example.mariajosemolina.project1_buildasinglescreenapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/relativelayout_paddingTop">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hline_height"
+            android:layout_marginTop="@dimen/View_marginTop"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textViewX_height"
+            android:layout_marginLeft="@dimen/textViewX_marginleft"
+            android:layout_marginStart="@dimen/textViewX_marginStart"
+            android:layout_marginTop="@dimen/textView_MarginTop"
+            android:contentDescription="@string/information"
+            android:drawableLeft="@drawable/ic_location_on_black_18dp"
+            android:drawablePadding="@dimen/textViewX_padding"
+            android:drawableStart="@drawable/ic_location_on_black_18dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding2"
+            android:paddingLeft="@dimen/Padding_left_right"
+            android:paddingRight="@dimen/Padding_left_right"
+            android:text="@string/information"
+            android:textColor="@color/bluegray"
+            android:textSize="@dimen/textViewX_size" />
+
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textView_phone_web_time"
+            android:layout_alignLeft="@+id/TextView1"
+            android:layout_alignStart="@+id/TextView1"
+            android:layout_below="@+id/TextView1"
+            android:contentDescription="@string/phone"
+            android:drawableLeft="@drawable/ic_call_black_18dp"
+            android:drawablePadding="@dimen/textViewX_padding"
+            android:drawableStart="@drawable/ic_call_black_18dp"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/phone"
+            android:textColor="@color/bluegray"
+            android:textSize="@dimen/textViewX_size" />
+
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textView_phone_web_time"
+            android:layout_alignLeft="@+id/TextView2"
+            android:layout_alignStart="@+id/TextView2"
+            android:layout_below="@+id/TextView2"
+            android:contentDescription="@string/web"
+            android:drawableLeft="@drawable/ic_http_black_18dp"
+            android:drawablePadding="@dimen/textViewX_padding"
+            android:drawableStart="@drawable/ic_http_black_18dp"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/web"
+            android:textColor="@color/bluegray"
+            android:textSize="@dimen/textViewX_size" />
+
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/textView_phone_web_time"
+            android:layout_alignLeft="@+id/TextView3"
+            android:layout_alignStart="@+id/TextView3"
+            android:layout_below="@+id/TextView3"
+            android:contentDescription="@string/web"
+            android:drawableLeft="@drawable/ic_av_timer_black_18dp"
+            android:drawablePadding="@dimen/textViewX_padding"
+            android:drawableStart="@drawable/ic_av_timer_black_18dp"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/padding"
+            android:text="@string/opening"
+            android:textColor="@color/bluegray"
+            android:textSize="@dimen/textViewX_size" />
+
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/imageView_height"
+                android:layout_below="@+id/TextView4"
+                android:layout_marginTop="@dimen/imageView_marginTop"
+                android:scaleType="centerCrop"
+                android:src="@drawable/decoration" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

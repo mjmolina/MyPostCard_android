@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="imageView_height">100dp</dimen>
+    <dimen name="imageView_marginTop">7dp</dimen>
+    <dimen name="textViewX_width">300dp</dimen>
+    <dimen name="textViewX_height">80dp</dimen>
+    <dimen name="textViewX_height_small">50dp</dimen>
+    <dimen name="textViewX_marginleft">25dp</dimen>
+    <dimen name="textViewX_marginStart">25dp</dimen>
+    <dimen name="textViewX_padding">60dp</dimen>
+    <dimen name="textViewX_size">20sp</dimen>
+    <dimen name="textView_MarginTop">25dp</dimen>
+    <dimen name="textView_phone_web_time">55dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="padding2">1dp</dimen>
+    <dimen name="hline_height">2dp</dimen>
+    <dimen name="View_marginTop">20dp</dimen>
+    <dimen name="Padding_left_right">50dp</dimen>
+    <dimen name="relativelayout_paddingTop">250dp</dimen>
+    <dimen name="Llayout_width">0dp</dimen>
+    <dimen name="Llayout_height">270dp</dimen>
+    <dimen name="View_Llayout">1dp</dimen>
+    <dimen name="ViewmarginLeftStart">10dp</dimen>
+
+
+</resources>

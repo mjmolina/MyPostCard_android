@@ -1,0 +1,11 @@
+
+    <resources>
+
+        <string name="app_name">Project1_BuildaSingleScreenApp</string>
+        <string name="information"> Gardenweg 36, 12213 Berlin </string>
+        <string name="phone">98877-3873</string>
+        <string name="web">www.yourflowers.de</string>
+        <string name="opening">9:00-18:00</string>
+
+    </resources>
+
